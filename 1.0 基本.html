@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>1.0 基本</title>
+		<!-- <script src="js/vue.js" type="text/javascript" charset="utf-8"></script> -->
+		
+	</head>
+	<body>
+		<div id="app">
+
+			<h2> {{ message }} </h2>
+			<h2> {{ school.name }} : {{school.mobile}} </h2>
+			<ul>
+				<li> {{campus[0]}}</li>
+				<li> {{campus[1]}}</li>
+				<li> {{campus[2]}}</li>
+				<li> {{campus[3]}}</li>
+			</ul>
+		</div>
+		
+		
+		<!-- 所有的 vue 都要放在这个下面 -->
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script>
+			var app = new Vue({
+				//Vue的挂载  el属性
+				el: "#app", //建议使用  id唯一
+				// el: ".app",  //选择class 为app的
+				// el: "div",   //选择 div 标签
+				
+				
+				data: {
+					message: "jxc!!!",
+					school: {
+						name: "学校",
+						mobile: "13456"
+					},
+					campus: ["数组一", "数组二", "数组三", "数组四"]
+				}
+
+
+			})
+		</script>
+	</body>
+</html>

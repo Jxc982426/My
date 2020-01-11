@@ -1,0 +1,3 @@
+-- Select * from student;
+
+-- insert into student values (12);

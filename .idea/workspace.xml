@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d87a773-9d8c-4e2f-8222-df3e848230aa" name="Default Changelist" comment="Learning">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/88fde92a-ea5a-4738-b63c-f28ed3c134e9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/88fde92a-ea5a-4738-b63c-f28ed3c134e9/storage_v2/_src_/schema/PUBLIC.aaZQjQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/88fde92a-ea5a-4738-b63c-f28ed3c134e9/storage_v2/_src_/schema/SCOTT.v0axBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/META-INF/My.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/settings1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/Anew.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/JVM参数.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/StaticFinal常量/ADefind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/StaticFinal常量/ANotDefind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/StaticFinal常量/编译期不确定常量.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/StaticFinal常量/编译期可确定常量.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/new与new数组.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/A$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/AC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/AThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/AThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/B$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/C2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/I1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/I2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/IC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/IThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/IThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/接口初始化.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/接口加载.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/初始化/类初始化顺序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/助记符.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/类的加载.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/JVM/被动使用.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/BlockingSynchronizedThread$LinkBlockThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/BlockingSynchronizedThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/SynchronizedThread$Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/SynchronizedThread$NewThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/SynchronizedThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/Volatile$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/Volatile$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/Volatile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/同步/sleep与wait.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/基本$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/基本$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/基本.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/线程池.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/线程状态转换.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/多线程/线程状态转换图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/异常/异常.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/排序/堆排序.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/时间/时间.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/抽象类接口$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/抽象类接口$B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/抽象类接口$C.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/抽象类接口$in.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/抽象类接口.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/类对象实例.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类/静态块.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类型/Short.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类型/static与final$A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类型/static与final.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类型/string.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/类型/wrapperClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/ArrayList与LinkedList与Vector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/HashMap与HashTable与TreeMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/HashSet与TreeSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/Iterator/listiterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/Iterator/便利时操作有趣的问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/collection只存引用.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/comparable与comparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/集合类.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/Java/集合类/集合类总图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/SQL/MyDB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/SQL/Mybatis与Mysql时间问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/SQL/join.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/SQL/范式.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/idea自带快捷键/简化输入.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/框架/Spring/Spring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/框架/Spring/Spring框架的7个模块.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/框架/SpringMVC/SpringMVC原理图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/基本概念/框架/Spring系列的关系.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/源码/function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/源码/hashmap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/源码/java/lang/String源码.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法/经典/MyTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法/经典/MyTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法/经典/多边方形n等分点$side.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法/经典/多边方形n等分点.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法/经典/高台积水问题.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/算法Algorithmx第四版/My_01.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/A1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/A2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/BuilderDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/包装方式/Bottle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/包装方式/Wrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/四种食物/ChickenBurger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/四种食物/Coke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/四种食物/Pepsl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/四种食物/VegBuurger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/套餐/Meal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/套餐/MealBuilser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/接口/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/接口/Packing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/食物种类/Burger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Builder实例/食物种类/Colddrink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/FactoryA1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/FactoryA2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/FactoryInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/singleOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/singleThree$single.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/singleThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/My/设计模式/创建型模式/singleTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/JVM参数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/StaticFinal常量/编译期不确定常量.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/StaticFinal常量/编译期可确定常量.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/new与new数组.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/初始化/接口初始化.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/初始化/接口加载.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/初始化/类初始化顺序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/助记符.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/类的加载.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/JVM/被动使用.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/同步/BlockingSynchronizedThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/同步/SynchronizedThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/同步/Volatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/同步/sleep与wait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/基本.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/线程池.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/线程状态转换.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/多线程/线程状态转换图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/异常/异常.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/排序/堆排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/时间/时间.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类/抽象类接口.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类/类对象实例.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类/静态块.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类型/Short.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类型/static与final.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类型/string.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/类型/wrapperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/ArrayList与LinkedList与Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/HashMap与HashTable与TreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/HashSet与TreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/listiterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/便利时操作有趣的问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/collection只存引用.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/comparable与comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/集合类.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/Java/集合类/集合类总图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/SQL/MyDB" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/SQL/Mybatis与Mysql时间问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/SQL/join.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/SQL/范式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/idea自带快捷键/简化输入.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/框架/Spring/Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/框架/Spring/Spring框架的7个模块.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/框架/SpringMVC/SpringMVC原理图.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/基本概念/框架/Spring系列的关系.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/源码/function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/源码/hashmap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/源码/java/lang/String源码.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法/经典/多边方形n等分点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法/经典/高台积水问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/算法Algorithmx第四版/My_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/BuilderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/包装方式/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/包装方式/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/四种食物/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/四种食物/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/四种食物/Pepsl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/四种食物/VegBuurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/套餐/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/套餐/MealBuilser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/接口/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/接口/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/食物种类/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Builder实例/食物种类/Colddrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/设计模式/创建型模式/Singleton.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/sunny/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="88fde92a-ea5a-4738-b63c-f28ed3c134e9" />
+    </checked>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="My" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/基本概念/JVM/初始化/类初始化顺序.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+              <folding>
+                <element signature="e#1019#1020#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="interface" />
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>A</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>I</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jxc" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/Final常量/new与new[].java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/Final常量/new与new数组.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/Final常量/编译期可确定常量.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/类加载器.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/类初始化演示.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/接口初始化.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/初始化/new与new数组.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/初始化/类初始化演示.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/被动使用.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/new与new数组.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/初始化/接口加载初始化.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/初始化/接口加载.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/JVM/初始化/接口初始化.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/SQL/范式.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/框架/Spring/Spring.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/idea自带快捷键/简化输入.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/静态块.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/aaaaa.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/集合类.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/HashSet与TreeSet.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/comparable与comparator.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/collection只存引用.java" />
+        <option value="$PROJECT_DIR$/src/settings.xml" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/static与final.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/ListIterator.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/抽象类接口.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/类对象实例.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/异常.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/String.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/string.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/时间/时间.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/类型/Short.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/类型/wrapperClass.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/类型/string.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/多线程/线程池.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/多线程/基本.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/SQL/MyDB" />
+        <option value="$PROJECT_DIR$/src/算法/经典/多边方形n等分点.java" />
+        <option value="$PROJECT_DIR$/src/算法/经典/高台积水问题.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/listiterator.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/ArrayList与LinkedList与Vector.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/便利时操作有趣的问题.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/SQL/Mybatis与Mysql时间问题.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/集合类/HashMap与HashTable与TreeMap.java" />
+        <option value="$PROJECT_DIR$/src/源码/java/lang/String.java" />
+        <option value="$PROJECT_DIR$/src/源码/java/lang/String源码.java" />
+        <option value="$PROJECT_DIR$/src/基本概念/Java/mathabs.java" />
+        <option value="$PROJECT_DIR$/src/算法Algorithmx第四版/mathabs.java" />
+        <option value="$PROJECT_DIR$/src/算法Algorithmx第四版/My_01.java" />
+        <option value="$PROJECT_DIR$/src/源码/hashmap.java" />
+        <option value="$PROJECT_DIR$/src/源码/function.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-12" />
+    <option name="width" value="978" />
+    <option name="height" value="1087" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <showExcludedFiles Scope="true" ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;oracle" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.data.extractors.current.id" value="SQL Inserts" />
+    <property name="jdk.selected.JAVA_MODULE" value="12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\idea\My\src\基本概念\框架\Spring" />
+      <recent name="D:\idea\My\src\基本概念\框架\SpringMVC" />
+      <recent name="D:\idea\My\src\基本概念\Java\多线程" />
+      <recent name="D:\idea\My\src\基本概念\Java\集合类" />
+      <recent name="D:\idea\My\src\基本概念\Java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\My\src" />
+      <recent name="D:\idea\AllPackage\入门" />
+      <recent name="D:\idea\My\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="基本概念.框架.Spring.Spring实例" />
+      <recent name="基本概念.框架.Spring" />
+      <recent name="设计模式.创建型模式.Builder实例" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.function">
+    <configuration name="My_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法Algorithmx第四版.My_01" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法Algorithmx第四版.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="便利时操作有趣的问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基本概念.Java.集合类.Iterator.便利时操作有趣的问题" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基本概念.Java.集合类.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="高台积水问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法.经典.高台积水问题" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法.经典.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="便利时操作有趣的问题" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基本概念.Java.集合类.Iterator.便利时操作有趣的问题" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基本概念.Java.集合类.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="基本" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="基本概念.Java.多线程.基本" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基本概念.Java.多线程.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="源码.function" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="源码.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mathabs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="算法Algorithmx第四版.mathabs" />
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法Algorithmx第四版.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My_01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法Algorithmx第四版.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="算法Algorithmx第四版" />
+      <option name="MAIN_CLASS_NAME" value="算法Algorithmx第四版.My_01" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="My_01.test_1_1_12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="算法Algorithmx第四版.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="算法Algorithmx第四版" />
+      <option name="MAIN_CLASS_NAME" value="算法Algorithmx第四版.My_01" />
+      <option name="METHOD_NAME" value="test_1_1_12" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="接口加载.testC2" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="My" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="基本概念.JVM.初始化.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="基本概念.JVM.初始化" />
+      <option name="MAIN_CLASS_NAME" value="基本概念.JVM.初始化.接口加载" />
+      <option name="METHOD_NAME" value="testC2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:+TraceClassLoading" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.mathabs" />
+      <item itemvalue="Application.My_01" />
+      <item itemvalue="JUnit.接口加载.testC2" />
+      <item itemvalue="JUnit.My_01.test" />
+      <item itemvalue="JUnit.My_01.test_1_1_12" />
+      <item itemvalue="Application.function" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.function" />
+        <item itemvalue="JUnit.My_01.test_1_1_12" />
+        <item itemvalue="Application.My_01" />
+        <item itemvalue="JUnit.My_01.test" />
+        <item itemvalue="Application.mathabs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d87a773-9d8c-4e2f-8222-df3e848230aa" name="Default Changelist" comment="" />
+      <created>1571307087145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571307087145</updated>
+      <workItem from="1571307090874" duration="9601000" />
+      <workItem from="1571369764841" duration="1135000" />
+      <workItem from="1571456551905" duration="24891000" />
+      <workItem from="1571532151903" duration="4750000" />
+      <workItem from="1571559961841" duration="6005000" />
+      <workItem from="1571578181063" duration="631000" />
+      <workItem from="1571587037572" duration="14000" />
+      <workItem from="1571638347454" duration="6778000" />
+      <workItem from="1571667437427" duration="7726000" />
+      <workItem from="1571705952049" duration="9982000" />
+      <workItem from="1571803944420" duration="7214000" />
+      <workItem from="1571880307223" duration="2653000" />
+      <workItem from="1571884727888" duration="855000" />
+      <workItem from="1571887514747" duration="1160000" />
+      <workItem from="1571978982184" duration="1354000" />
+      <workItem from="1571983723347" duration="6000" />
+      <workItem from="1572062803792" duration="928000" />
+      <workItem from="1572496045504" duration="1794000" />
+      <workItem from="1572584913456" duration="531000" />
+      <workItem from="1572746518188" duration="663000" />
+      <workItem from="1572775526364" duration="3000" />
+      <workItem from="1572775778544" duration="60000" />
+      <workItem from="1573278738990" duration="2530000" />
+      <workItem from="1573284061303" duration="36000" />
+      <workItem from="1573285349041" duration="38000" />
+      <workItem from="1573285956676" duration="379000" />
+      <workItem from="1573287670396" duration="963000" />
+      <workItem from="1573288843339" duration="124000" />
+      <workItem from="1573516488418" duration="2653000" />
+      <workItem from="1573530236515" duration="2594000" />
+      <workItem from="1573604633646" duration="164000" />
+      <workItem from="1573881152678" duration="3513000" />
+      <workItem from="1573962844783" duration="16610000" />
+      <workItem from="1574040747402" duration="1620000" />
+      <workItem from="1574125478895" duration="5522000" />
+      <workItem from="1574210652980" duration="239000" />
+      <workItem from="1576483119085" duration="742000" />
+      <workItem from="1576484783526" duration="3226000" />
+      <workItem from="1576640910227" duration="9568000" />
+      <workItem from="1576650570572" duration="184000" />
+      <workItem from="1578023229836" duration="6639000" />
+      <workItem from="1578365814483" duration="386000" />
+      <workItem from="1578366438364" duration="1922000" />
+      <workItem from="1578370495120" duration="26000" />
+      <workItem from="1578373633533" duration="719000" />
+      <workItem from="1578561747152" duration="3151000" />
+      <workItem from="1578640633169" duration="6823000" />
+      <workItem from="1578711317098" duration="11448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="wrapperClass_testInteger - 2019.11.17 at 17h 13m 57s.xml">
+      <configuration name="wrapperClass.testInteger" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="string_testFinction - 2019.11.17 at 17h 43m 31s.xml">
+      <configuration name="string.testFinction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="string_testFinction - 2019.11.17 at 17h 44m 30s.xml">
+      <configuration name="string.testFinction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test - 2020.01.11 at 11h 08m 48s.xml">
+      <configuration name="My_01.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test - 2020.01.11 at 11h 09m 10s.xml">
+      <configuration name="My_01.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test - 2020.01.11 at 11h 09m 17s.xml">
+      <configuration name="My_01.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test_1_1_12 - 2020.01.11 at 11h 52m 02s.xml">
+      <configuration name="My_01.test_1_1_12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test_1_1_12 - 2020.01.11 at 11h 52m 34s.xml">
+      <configuration name="My_01.test_1_1_12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test_1_1_12 - 2020.01.11 at 11h 52m 43s.xml">
+      <configuration name="My_01.test_1_1_12" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="My_01_test_1_1_12 - 2020.01.11 at 11h 53m 21s.xml">
+      <configuration name="My_01.test_1_1_12" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="170553000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-12" y="0" width="978" height="1087" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.5015625" side_tool="true" weight="0.32995495" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.37631026" visible="true" weight="0.2832244" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30503145" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39832285" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17782427" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" weight="0.32606438" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32914045" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32843652" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32843652" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32914045" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32914045" />
+      <window_info anchor="bottom" id="Statistic" order="15" weight="0.17964694" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24897541" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24952501" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.28556806" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32970026" />
+      <window_info anchor="right" id="Word Book" order="8" side_tool="true" />
+      <window_info anchor="right" id="Structure" order="9" sideWeight="0.6236897" visible="true" weight="0.3137255" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learning" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/My$_testIC__1_.ic" NAME="接口初始化.testIC (1) Coverage Results" MODIFIED="1571807497235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>基本概念.JVM.初始化.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/类型/Short.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/设计模式/创建型模式/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/类型/string.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/线程池.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/类型/wrapperClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/同步/BlockingSynchronizedThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/同步/sleep与wait.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/同步/SynchronizedThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/同步/Volatile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/多线程/基本.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/SQL/MyDB">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" lean-forward="true" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.Iterator">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.Iterator</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.Iterator</node>
+            <node x="" y="">java.util.ListIterator</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.0" y="2.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#2909#2910#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/collection只存引用.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/comparable与comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/001am6iAzy7jESYCd4a86&amp;690.jpg" />
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="119" column="14" lean-forward="true" selection-start-line="119" selection-start-column="14" selection-end-line="119" selection-end-column="14" />
+          <folding>
+            <element signature="e#5738#5739#0" expanded="true" />
+            <element signature="e#5778#5779#0" expanded="true" />
+            <element signature="e#5962#5963#0" expanded="true" />
+            <element signature="e#5986#5987#0" expanded="true" />
+            <element signature="e#7479#7480#0" expanded="true" />
+            <element signature="e#7553#7554#0" expanded="true" />
+            <element signature="e#56135#56136#0" expanded="true" />
+            <element signature="e#56184#56185#0" expanded="true" />
+            <element signature="e#56224#56225#0" expanded="true" />
+            <element signature="e#56317#56318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="600" lean-forward="true" selection-start-line="600" selection-end-line="600" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7945">
+          <caret line="321" column="24" lean-forward="true" selection-start-line="321" selection-start-column="24" selection-end-line="321" selection-end-column="24" />
+          <folding>
+            <element signature="e#6338#6339#0" expanded="true" />
+            <element signature="e#6406#6407#0" expanded="true" />
+            <element signature="e#16108#16109#0" expanded="true" />
+            <element signature="e#16153#16154#0" expanded="true" />
+            <element signature="e#34605#34606#0" expanded="true" />
+            <element signature="e#34642#34643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/listiterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="43" lean-forward="true" selection-start-line="66" selection-start-column="43" selection-end-line="66" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="172" lean-forward="true" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="docComment;class#ListIterator#0" />
+            <element signature="docComment;method#hasNext#0;class#ListIterator#0" />
+            <element signature="docComment;method#next#0;class#ListIterator#0" />
+            <element signature="docComment;method#hasPrevious#0;class#ListIterator#0" />
+            <element signature="docComment;method#previous#0;class#ListIterator#0" />
+            <element signature="docComment;method#nextIndex#0;class#ListIterator#0" />
+            <element signature="docComment;method#previousIndex#0;class#ListIterator#0" />
+            <element signature="docComment;method#set#0;class#ListIterator#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/经典/高台积水问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="114" column="22" selection-start-line="114" selection-start-column="22" selection-end-line="114" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法/经典/多边方形n等分点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/SQL/join.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/Iterator/便利时操作有趣的问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/HashSet与TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/ArrayList与LinkedList与Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12500">
+          <caret line="533" column="65" selection-start-line="533" selection-start-column="65" selection-end-line="533" selection-end-column="65" />
+          <folding>
+            <element signature="e#15785#15786#0" expanded="true" />
+            <element signature="e#15834#15835#0" expanded="true" />
+            <element signature="e#16006#16007#0" expanded="true" />
+            <element signature="e#16056#16057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/框架/SpringMVC/SpringMVC原理图.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/Java/集合类/HashMap与HashTable与TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/SQL/Mybatis与Mysql时间问题.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.String">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.String</OriginalElement>
+          <nodes>
+            <node x="" y="">java.lang.constant.Constable</node>
+            <node x="" y="">java.lang.CharSequence</node>
+            <node x="" y="">java.lang.constant.ConstantDesc</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">java.lang.String</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8767123287671232" x="345.0" y="60.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65300">
+          <caret line="2712" column="7" selection-start-line="2712" selection-start-column="7" selection-end-line="2712" selection-end-column="7" />
+          <folding>
+            <element signature="e#15949#15950#0" expanded="true" />
+            <element signature="e#16001#16002#0" expanded="true" />
+            <element signature="e#24839#24840#0" expanded="true" />
+            <element signature="e#24885#24886#0" expanded="true" />
+            <element signature="e#125551#125552#0" expanded="true" />
+            <element signature="e#125593#125594#0" expanded="true" />
+            <element signature="e#126008#126009#0" expanded="true" />
+            <element signature="e#126047#126048#0" expanded="true" />
+            <element signature="e#126469#126470#0" expanded="true" />
+            <element signature="e#126509#126510#0" expanded="true" />
+            <element signature="e#126939#126940#0" expanded="true" />
+            <element signature="e#126980#126981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31925">
+          <caret line="1348" selection-start-line="1348" selection-end-line="1348" />
+          <folding>
+            <element signature="e#51932#51933#0" expanded="true" />
+            <element signature="e#51971#51972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="289" column="7" selection-start-line="212" selection-start-column="7" selection-end-line="289" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="947" column="23" selection-start-line="947" selection-start-column="23" selection-end-line="947" selection-end-column="23" />
+          <folding>
+            <element signature="e#27472#27473#0" expanded="true" />
+            <element signature="e#27497#27498#0" expanded="true" />
+            <element signature="e#32809#32810#0" expanded="true" />
+            <element signature="e#32852#32853#0" expanded="true" />
+            <element signature="e#34998#34999#0" expanded="true" />
+            <element signature="e#35044#35045#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="476" column="30" selection-start-line="476" selection-start-column="30" selection-end-line="476" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="443" column="7" lean-forward="true" selection-start-line="443" selection-start-column="7" selection-end-line="443" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="1008" column="22" lean-forward="true" selection-start-line="1008" selection-start-column="22" selection-end-line="1008" selection-end-column="22" />
+          <folding>
+            <element signature="e#5155#5156#0" expanded="true" />
+            <element signature="e#5226#5227#0" expanded="true" />
+            <element signature="e#7031#7032#0" expanded="true" />
+            <element signature="e#7102#7103#0" expanded="true" />
+            <element signature="e#8909#8910#0" expanded="true" />
+            <element signature="e#8980#8981#0" expanded="true" />
+            <element signature="e#10787#10788#0" expanded="true" />
+            <element signature="e#10858#10859#0" expanded="true" />
+            <element signature="e#12664#12665#0" expanded="true" />
+            <element signature="e#12723#12724#0" expanded="true" />
+            <element signature="e#15056#15057#0" expanded="true" />
+            <element signature="e#15127#15128#0" expanded="true" />
+            <element signature="e#18017#18018#0" expanded="true" />
+            <element signature="e#18088#18089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/TimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="34" column="59" lean-forward="true" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="1526" column="19" selection-start-line="1526" selection-start-column="7" selection-end-line="1526" selection-end-column="19" />
+          <folding>
+            <element signature="e#19007#19008#0" expanded="true" />
+            <element signature="e#19065#19066#0" expanded="true" />
+            <element signature="e#19230#19231#0" expanded="true" />
+            <element signature="e#19313#19314#0" expanded="true" />
+            <element signature="e#21007#21008#0" expanded="true" />
+            <element signature="e#21034#21035#0" expanded="true" />
+            <element signature="e#21232#21233#0" expanded="true" />
+            <element signature="e#21264#21265#0" expanded="true" />
+            <element signature="e#23525#23526#0" expanded="true" />
+            <element signature="e#23579#23580#0" expanded="true" />
+            <element signature="e#24220#24221#0" expanded="true" />
+            <element signature="e#24285#24286#0" expanded="true" />
+            <element signature="e#30945#30946#0" expanded="true" />
+            <element signature="e#30983#30984#0" expanded="true" />
+            <element signature="e#40113#40114#0" expanded="true" />
+            <element signature="e#40163#40164#0" expanded="true" />
+            <element signature="e#41850#41851#0" expanded="true" />
+            <element signature="e#41914#41915#0" expanded="true" />
+            <element signature="e#41983#41984#0" expanded="true" />
+            <element signature="e#42059#42060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="94" column="64" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="94" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="149" column="28" lean-forward="true" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+          <folding>
+            <element signature="e#7784#7785#0" expanded="true" />
+            <element signature="e#7837#7838#0" expanded="true" />
+            <element signature="e#14072#14073#0" expanded="true" />
+            <element signature="e#14121#14122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/源码/function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/源码/hashmap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/源码/java/lang/String源码.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/算法Algorithmx第四版/My_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2232#2233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基本概念/JVM/初始化/类初始化顺序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>My</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring-4.3.18.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
